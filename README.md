@@ -2,3 +2,5 @@
 DIG2500C
 for school
 3 websites to finalize
+
+https://thethatdude.github.io/fid/bistro/
