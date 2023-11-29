@@ -1,0 +1,117 @@
+body {
+    background-color: #1d1d1d;
+    margin: 0 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border-style: dashed;
+    padding: 2%;
+    }
+    h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #747474;
+    margin-top: 30px;
+    }
+    h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #747474;
+    margin-top: 30px;
+    }
+    .centerP {
+        text-align: center;
+    }
+    div.centerDIV {
+     text-align: center;
+    }
+    ul.centerUL {
+    display: inline-block;
+    text-align: left;
+    }
+    div.gallery {
+    border: 1px solid #ccc;
+    }
+
+    div.gallery:hover {
+     border: 1px solid #777;
+    }
+
+    div.gallery img {
+     width: 100%;
+    height: auto;
+    }
+
+    div.desc {
+     padding: 15px;
+     text-align: center;
+    }
+
+    * {
+     box-sizing: border-box;
+    }
+
+    .responsive {
+    padding: 0 6px;
+     float: left;
+     width: 31.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+     .responsive {
+       width: 49.99999%;
+      margin: 6px 0;
+     }
+    }
+
+    @media only screen and (max-width: 500px) {
+     .responsive {
+      width: 100%;
+    }
+    }
+
+    .clearfix:after {
+    content: "";
+    display: table;
+     clear: both;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+       }
+    #mainheader {
+        font-family: 'Black Ops One', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 3em;
+    }
+    /* YO this is a test below*/
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black;
+      }
+      
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+        top: 100%;
+        left: 50%;
+        margin-left: -60px;
+      }
+      
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
